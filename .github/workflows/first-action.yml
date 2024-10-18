@@ -1,4 +1,4 @@
-name: First woekflow
+name: First workflow
 #manunaly start
 on: workflow_dispatch
 jobs:
