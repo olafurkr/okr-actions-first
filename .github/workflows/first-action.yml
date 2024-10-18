@@ -5,8 +5,12 @@ jobs:
   my-first-job:
     runs-on: ubuntu-latest
     steps:
+    #each step starts with - (dash) 
       - name: Print greeting
         run: echo "Hello World!"
       - name: Print goodbye
-        run: echo "Done - bye!"
+      # if we want to run multiple sripts use | 
+        run: |
+          echo "Done - bye!"
+          echo "Bye again!"
 
