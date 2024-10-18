@@ -1,11 +1,10 @@
 name: First woekflow
 #manunaly start
 on: workflow_dispatch
-jpbs:
+jobs:
   my-first-job:
     runs-on: ubuntu-latest
     steps:
-    #list of steps single each step starts with dash (-)
       - name: Print greeting
         run: echo "Hello World!"
       - name: Print goodbye
