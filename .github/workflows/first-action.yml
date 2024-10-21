@@ -11,6 +11,6 @@ jobs:
       - name: Print goodbye
       # if we want to run multiple sripts use | 
         run: |
-          echo "Done - bye!"
-          echo "Bye again!"
+            echo "Done - bye!"
+            echo "Bye again!"
 
